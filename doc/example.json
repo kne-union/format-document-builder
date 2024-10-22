@@ -9,6 +9,17 @@
         {
           "name": "_FormatDocumentBuilder",
           "packageName": "@kne/current-lib_format-document-builder"
+        },
+        {
+          "packageName": "@kne/current-lib_format-document-builder/dist/index.css"
+        },
+        {
+          "name": "_paymentData",
+          "packageName": "@mock/payment.json"
+        },
+        {
+          "name": "_contactData",
+          "packageName": "@mock/contact.json"
         }
       ]
     }

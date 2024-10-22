@@ -1,3 +1,68 @@
-.tips {
-  color: #4f185a;
+.canvas {
+  position: relative;
+}
+
+.render {
+  pointer-events: none;
+  user-select: none;
+}
+
+.form-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.form-field {
+  display: none;
+
+  &.is-active {
+    position: absolute;
+    left: calc(var(--left) - 4px);
+    top: calc(var(--top) - 4px);
+    width: calc(var(--width) + 8px);
+    height: calc(var(--height) + 8px);
+
+    :global(.react-form__field-component) {
+      width: 100%;
+      height: 100%;
+      font-size: var(--font-size) !important;
+      font-weight: var(--font-weight) !important;
+      text-align: var(--text-align) !important;
+      line-height: var(--line-height) !important;
+      //padding: 4px 4px !important;
+      margin-top: 4px;
+    }
+    textarea,
+    input {
+      height: var(--height);
+      border: 1px solid var(--primary-color) !important;
+      padding: 0 4px !important;
+    }
+    textarea {
+      max-height: none !important;
+    }
+
+    :global(.ant-picker) {
+      transform: translateY(4px);
+      margin-top: -4px;
+    }
+
+    display: block;
+  }
+}
+
+.opt-list {
+  position: absolute;
+  left: calc(var(--left) + 4px);
+  top: var(--top);
+  transform: translateY(-50%);
+
+  :global(.ant-btn) {
+    padding: 0;
+    width: auto !important;
+    height: auto !important;
+  }
 }

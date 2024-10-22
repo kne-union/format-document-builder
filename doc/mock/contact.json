@@ -1,0 +1,624 @@
+[
+  {
+    "avatar": null,
+    "name": "西柚",
+    "gender": "F",
+    "birth": null,
+    "phoneOfPerson": {
+      "regionCode": "CN",
+      "number": "13809098787"
+    },
+    "phoneOfWork": null,
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": null,
+    "industry": [
+      {
+        "code": "008035",
+        "name": "广告/公关/市场推广/会展"
+      }
+    ],
+    "function": [
+      {
+        "code": "006024190",
+        "name": "公关总监"
+      },
+      {
+        "code": "006024193",
+        "name": "媒介经理/主管"
+      },
+      {
+        "code": "006024196",
+        "name": "舆情分析师"
+      }
+    ],
+    "currentLocation": {
+      "code": "030",
+      "name": "天津"
+    },
+    "phoneOfLandline": "(+1)0512-66267878",
+    "id": 434,
+    "serialNumber": "CC00002426",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 78,
+      "uid": 104,
+      "termId": 192410695,
+      "operationTime": "2023-08-30T13:56:25",
+      "name": "樊贝贝",
+      "enName": "Fanbeibei"
+    },
+    "contactClients": [
+      {
+        "contactId": 434,
+        "clientId": 1893,
+        "workId": 446,
+        "onJob": false,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": ["219817538924576768"],
+    "contactWorks": [
+      {
+        "groupContact": false,
+        "clientId": 0,
+        "clientIdStr": "manual-6KW/5p+a5YWs5Y+45ZWl",
+        "position": "HR",
+        "department": "人事部",
+        "startDate": null,
+        "endDate": null,
+        "onJob": true,
+        "id": 445,
+        "contactId": 434,
+        "clientName": "西柚公司啥",
+        "createdAt": "2023-08-30T13:56:25",
+        "clientOrgName": null,
+        "clientCreatedAt": null
+      },
+      {
+        "groupContact": false,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "HR",
+        "department": null,
+        "startDate": "2023-01-30",
+        "endDate": null,
+        "onJob": false,
+        "id": 446,
+        "contactId": 434,
+        "clientName": "华威股份有限公司",
+        "createdAt": "2023-08-30T13:58:19",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      },
+      {
+        "groupContact": false,
+        "clientId": 0,
+        "clientIdStr": "manual-Nzc3NA==",
+        "position": "iii",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": false,
+        "id": 447,
+        "contactId": 434,
+        "clientName": "7774",
+        "createdAt": "2023-08-30T14:01:02",
+        "clientOrgName": null,
+        "clientCreatedAt": null
+      }
+    ],
+    "contactEducations": [
+      {
+        "school": "校园",
+        "degree": null,
+        "subject": null,
+        "startDate": null,
+        "endDate": null,
+        "id": 9,
+        "contactId": 434,
+        "createdAt": "2023-08-30T13:56:25"
+      }
+    ],
+    "state": "Off",
+    "stateOfContacts": "On",
+    "age": null
+  },
+  {
+    "avatar": null,
+    "name": "22222",
+    "gender": "M",
+    "birth": null,
+    "phoneOfPerson": {
+      "regionCode": "CN",
+      "number": "13111111111"
+    },
+    "phoneOfWork": null,
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": null,
+    "industry": [
+      {
+        "code": "001001",
+        "name": "互联网/移动互联网/电子商务"
+      },
+      {
+        "code": "001004",
+        "name": "IT服务/系统集成"
+      }
+    ],
+    "function": [
+      {
+        "code": "001001004",
+        "name": "助理总经理/总助(高管级)"
+      }
+    ],
+    "currentLocation": {
+      "code": "020",
+      "name": "上海"
+    },
+    "phoneOfLandline": null,
+    "id": 419,
+    "serialNumber": "CC00002416",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 103,
+      "uid": 107,
+      "termId": 192410836,
+      "operationTime": "2023-08-01T12:53:15",
+      "name": "李白",
+      "enName": "My Haires goods"
+    },
+    "contactClients": [
+      {
+        "contactId": 419,
+        "clientId": 1893,
+        "workId": 424,
+        "onJob": true,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": ["209292391985709056"],
+    "contactWorks": [
+      {
+        "groupContact": false,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "2222",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": true,
+        "id": 424,
+        "contactId": 419,
+        "clientName": "华威股份有限公司1",
+        "createdAt": "2023-08-01T12:53:15",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      }
+    ],
+    "contactEducations": [],
+    "state": "On",
+    "stateOfContacts": "On",
+    "age": null
+  },
+  {
+    "avatar": null,
+    "name": "wwwwwww",
+    "gender": "M",
+    "birth": null,
+    "phoneOfPerson": {
+      "regionCode": "CN",
+      "number": "13411111111"
+    },
+    "phoneOfWork": {
+      "regionCode": "CN",
+      "number": "14560909554"
+    },
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": null,
+    "industry": [
+      {
+        "code": "001001",
+        "name": "互联网/移动互联网/电子商务"
+      },
+      {
+        "code": "001004",
+        "name": "IT服务/系统集成"
+      }
+    ],
+    "function": [
+      {
+        "code": "001001001",
+        "name": "首席执行官CEO/总裁/总经理"
+      }
+    ],
+    "currentLocation": {
+      "code": "020",
+      "name": "上海"
+    },
+    "phoneOfLandline": "0512-889904939-089",
+    "id": 401,
+    "serialNumber": "CC00002398",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 431,
+      "uid": 52,
+      "termId": 192410691,
+      "operationTime": "2023-07-19T11:28:28",
+      "name": "黄正祥",
+      "enName": "Hasen huang"
+    },
+    "contactClients": [
+      {
+        "contactId": 401,
+        "clientId": 1893,
+        "workId": 401,
+        "onJob": true,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": ["204560015816654848"],
+    "contactWorks": [
+      {
+        "groupContact": true,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "11111",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": true,
+        "id": 401,
+        "contactId": 401,
+        "clientName": "极端",
+        "createdAt": "2023-07-19T11:28:28",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      }
+    ],
+    "contactEducations": [],
+    "state": "On",
+    "stateOfContacts": "On",
+    "age": null
+  },
+  {
+    "avatar": null,
+    "name": "华女士",
+    "gender": "F",
+    "birth": null,
+    "phoneOfPerson": {
+      "regionCode": "CN",
+      "number": "13376760099"
+    },
+    "phoneOfWork": {
+      "regionCode": "CN",
+      "number": "1111111"
+    },
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": null,
+    "industry": [
+      {
+        "code": "001001",
+        "name": "互联网/移动互联网/电子商务"
+      },
+      {
+        "code": "001004",
+        "name": "IT服务/系统集成"
+      },
+      {
+        "code": "002007",
+        "name": "计算机硬件/网络设备"
+      }
+    ],
+    "function": [
+      {
+        "code": "008046338",
+        "name": "招聘经理/主管"
+      }
+    ],
+    "currentLocation": {
+      "code": "050090",
+      "name": "深圳"
+    },
+    "phoneOfLandline": null,
+    "id": 384,
+    "serialNumber": "CC00002381",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 81,
+      "uid": 104,
+      "termId": 192410693,
+      "operationTime": "2023-07-06T00:29:36",
+      "name": "樊贝贝",
+      "enName": "Fanbeibei"
+    },
+    "contactClients": [
+      {
+        "contactId": 384,
+        "clientId": 1893,
+        "workId": 384,
+        "onJob": true,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": [],
+    "contactWorks": [
+      {
+        "groupContact": false,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "HR",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": true,
+        "id": 384,
+        "contactId": 384,
+        "clientName": "华威股份有限公司",
+        "createdAt": "2023-07-06T00:29:36",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      }
+    ],
+    "contactEducations": [],
+    "state": "On",
+    "stateOfContacts": "On",
+    "age": null
+  },
+  {
+    "avatar": null,
+    "name": "彰显是",
+    "gender": "F",
+    "birth": null,
+    "phoneOfPerson": {
+      "regionCode": "CN",
+      "number": "15937280432"
+    },
+    "phoneOfWork": null,
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": "7878@999.com",
+    "industry": [
+      {
+        "code": "001001",
+        "name": "互联网/移动互联网/电子商务"
+      },
+      {
+        "code": "001004",
+        "name": "IT服务/系统集成"
+      },
+      {
+        "code": "002007",
+        "name": "计算机硬件/网络设备"
+      }
+    ],
+    "function": [
+      {
+        "code": "008046338",
+        "name": "招聘经理/主管"
+      }
+    ],
+    "currentLocation": {
+      "code": "050090",
+      "name": "深圳"
+    },
+    "phoneOfLandline": null,
+    "id": 385,
+    "serialNumber": "CC00002382",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 81,
+      "uid": 104,
+      "termId": 192410693,
+      "operationTime": "2023-07-06T00:29:36",
+      "name": "樊贝贝",
+      "enName": "Fanbeibei"
+    },
+    "contactClients": [
+      {
+        "contactId": 385,
+        "clientId": 1893,
+        "workId": 385,
+        "onJob": false,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": [],
+    "contactWorks": [
+      {
+        "groupContact": false,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "HR",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": false,
+        "id": 385,
+        "contactId": 385,
+        "clientName": "华威股份有限公司",
+        "createdAt": "2023-07-06T00:29:36",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      }
+    ],
+    "contactEducations": [],
+    "state": "Off",
+    "stateOfContacts": "Off",
+    "age": null
+  },
+  {
+    "avatar": null,
+    "name": "章文",
+    "gender": "F",
+    "birth": null,
+    "phoneOfPerson": {
+      "regionCode": "CN",
+      "number": "13389803333"
+    },
+    "phoneOfWork": null,
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": null,
+    "industry": [
+      {
+        "code": "001001",
+        "name": "互联网/移动互联网/电子商务"
+      },
+      {
+        "code": "001004",
+        "name": "IT服务/系统集成"
+      },
+      {
+        "code": "002007",
+        "name": "计算机硬件/网络设备"
+      }
+    ],
+    "function": [
+      {
+        "code": "008046338",
+        "name": "招聘经理/主管"
+      }
+    ],
+    "currentLocation": {
+      "code": "050090",
+      "name": "深圳"
+    },
+    "phoneOfLandline": null,
+    "id": 387,
+    "serialNumber": "CC00002384",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 81,
+      "uid": 104,
+      "termId": 192410693,
+      "operationTime": "2023-07-06T00:29:36",
+      "name": "樊贝贝",
+      "enName": "Fanbeibei"
+    },
+    "contactClients": [
+      {
+        "contactId": 387,
+        "clientId": 1893,
+        "workId": 387,
+        "onJob": true,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": [],
+    "contactWorks": [
+      {
+        "groupContact": false,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "HR",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": true,
+        "id": 387,
+        "contactId": 387,
+        "clientName": "华威股份有限公司",
+        "createdAt": "2023-07-06T00:29:36",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      }
+    ],
+    "contactEducations": [],
+    "state": "On",
+    "stateOfContacts": "On",
+    "age": null
+  },
+  {
+    "avatar": null,
+    "name": "兴民",
+    "gender": "F",
+    "birth": null,
+    "phoneOfPerson": null,
+    "phoneOfWork": {
+      "regionCode": "CN",
+      "number": "13378789090"
+    },
+    "phoneOfBack": null,
+    "emailOfPerson": null,
+    "emailOfWork": null,
+    "industry": [
+      {
+        "code": "001001",
+        "name": "互联网/移动互联网/电子商务"
+      },
+      {
+        "code": "001004",
+        "name": "IT服务/系统集成"
+      },
+      {
+        "code": "002007",
+        "name": "计算机硬件/网络设备"
+      }
+    ],
+    "function": [
+      {
+        "code": "008046338",
+        "name": "招聘经理/主管"
+      }
+    ],
+    "currentLocation": {
+      "code": "050090",
+      "name": "深圳"
+    },
+    "phoneOfLandline": null,
+    "id": 386,
+    "serialNumber": "CC00002383",
+    "adder": {
+      "coId": 1,
+      "appId": 1,
+      "orgId": 81,
+      "uid": 104,
+      "termId": 192410693,
+      "operationTime": "2023-07-06T00:29:36",
+      "name": "樊贝贝",
+      "enName": "Fanbeibei"
+    },
+    "contactClients": [
+      {
+        "contactId": 386,
+        "clientId": 1893,
+        "workId": 386,
+        "onJob": true,
+        "cooperateStatus": 3
+      }
+    ],
+    "cvIds": [],
+    "contactWorks": [
+      {
+        "groupContact": false,
+        "clientId": 1893,
+        "clientIdStr": "sys-1893",
+        "position": "HR",
+        "department": null,
+        "startDate": null,
+        "endDate": null,
+        "onJob": true,
+        "id": 386,
+        "contactId": 386,
+        "clientName": "华威股份有限公司",
+        "createdAt": "2023-07-06T00:29:36",
+        "clientOrgName": "华威股份有限公司",
+        "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
+      }
+    ],
+    "contactEducations": [],
+    "state": "On",
+    "stateOfContacts": "On",
+    "age": null
+  }
+]
