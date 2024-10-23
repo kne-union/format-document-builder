@@ -50,7 +50,7 @@
   "bugs": {
     "url": "https://github.com/kne-union/format-document-builder/issues"
   },
-  "homepage": "https://www.kne-union.top/#/libs/FormatDocumentBuilder",
+  "homepage": "https://github.com/kne-union/format-document-builder",
   "eslintConfig": {
     "extends": [
       "react-app",
