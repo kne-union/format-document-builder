@@ -160,8 +160,8 @@ Should you need further clarification of this notice, please liaise with the fol
 邮箱 / email：${userInfo.email || ""}<br/><br/>
 顺颂，商祺<br/>
 Sincerely yours,<br/>
-北京仕邦达人力资源服务有限公司上海分公司<br/>
-FA Talent Human Resources Service Co., Ltd. Shanghai Branch
+XXXXXXX人力资源服务有限公司上海分公司<br/>
+XXXXXXX Human Resources Service Co., Ltd. Shanghai Branch
                   </div>
                 </div>
               </div>
