@@ -88,6 +88,8 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
+    "@kne/global-context": "^1.1.1",
+    "@kne/is-empty": "^1.0.1",
     "@kne/use-ref-callback": "^0.1.2",
     "classnames": "^2.5.1",
     "lodash": "^4.17.21"

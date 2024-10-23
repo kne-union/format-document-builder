@@ -87,9 +87,9 @@
         "onJob": false,
         "id": 446,
         "contactId": 434,
-        "clientName": "华威股份有限公司",
+        "clientName": "XXXXX有限公司",
         "createdAt": "2023-08-30T13:58:19",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       },
       {
@@ -193,9 +193,9 @@
         "onJob": true,
         "id": 424,
         "contactId": 419,
-        "clientName": "华威股份有限公司1",
+        "clientName": "XXXXX有限公司1",
         "createdAt": "2023-08-01T12:53:15",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       }
     ],
@@ -277,7 +277,7 @@
         "contactId": 401,
         "clientName": "极端",
         "createdAt": "2023-07-19T11:28:28",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       }
     ],
@@ -361,9 +361,9 @@
         "onJob": true,
         "id": 384,
         "contactId": 384,
-        "clientName": "华威股份有限公司",
+        "clientName": "XXXXX有限公司",
         "createdAt": "2023-07-06T00:29:36",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       }
     ],
@@ -444,9 +444,9 @@
         "onJob": false,
         "id": 385,
         "contactId": 385,
-        "clientName": "华威股份有限公司",
+        "clientName": "XXXXX有限公司",
         "createdAt": "2023-07-06T00:29:36",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       }
     ],
@@ -527,9 +527,9 @@
         "onJob": true,
         "id": 387,
         "contactId": 387,
-        "clientName": "华威股份有限公司",
+        "clientName": "XXXXX有限公司",
         "createdAt": "2023-07-06T00:29:36",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       }
     ],
@@ -610,9 +610,9 @@
         "onJob": true,
         "id": 386,
         "contactId": 386,
-        "clientName": "华威股份有限公司",
+        "clientName": "XXXXX有限公司",
         "createdAt": "2023-07-06T00:29:36",
-        "clientOrgName": "华威股份有限公司",
+        "clientOrgName": "XXXXX有限公司",
         "clientCreatedAt": "2023-06-14T09:44:57.000+08:00"
       }
     ],

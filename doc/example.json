@@ -1,5 +1,5 @@
 {
-  "isFull": false,
+  "isFull": true,
   "list": [
     {
       "title": "这里填写示例标题",
@@ -20,6 +20,32 @@
         {
           "name": "_contactData",
           "packageName": "@mock/contact.json"
+        }
+      ]
+    },
+    {
+      "title": "这里填写示例标题",
+      "description": "这里填写示例说明",
+      "code": "./payment-notice.js",
+      "scope": [
+        {
+          "name": "_FormatDocumentBuilder",
+          "packageName": "@kne/current-lib_format-document-builder"
+        },
+        {
+          "packageName": "@kne/current-lib_format-document-builder/dist/index.css"
+        },
+        {
+          "name": "_paymentData",
+          "packageName": "@mock/payment.json"
+        },
+        {
+          "name": "_contactData",
+          "packageName": "@mock/contact.json"
+        },
+        {
+          "name": "_dayjs",
+          "packageName": "dayjs"
         }
       ]
     }

@@ -5,12 +5,12 @@
     "payType": 1,
     "state": 0,
     "clientId": 1893,
-    "clientName": "华威股份有限公司",
+    "clientName": "XXXXX有限公司",
     "contractId": null,
     "contractName": null,
     "clientTaxRate": 0,
     "paymentId": 901,
-    "invoiceTitle": "华威股份有限公司",
+    "invoiceTitle": "XXXXX有限公司",
     "expressId": 545,
     "contact": "彰显是",
     "phone": "13308983333",
@@ -128,7 +128,7 @@
   "progressiveAmount": null,
   "payment": {
     "invoiceType": 3,
-    "invoiceTitle": "华威股份有限公司",
+    "invoiceTitle": "XXXXX有限公司",
     "taxpayerIdNumber": "SHUIHAOHAUWEI001",
     "taxRegistrationAddress": null,
     "taxRegistrationPhone": null,
@@ -137,21 +137,21 @@
   },
   "paymentPdfInit": {
     "paymentNoticePro": {
-      "companyName": "北京仕邦达人力资源服务有限公司上海分公司",
-      "companyEnName": "FA Talent Human Resources Service Co., Ltd. Shanghai Branch",
-      "address": "上海市黄浦区中山南路589号外企德科大厦（邮编：200001）",
-      "enAddress": "589 South Zhongshan Road. Huangpu District, Shanghai 200001, PRC",
-      "contactPhone": "+86-21-2312 4788",
-      "website": "www.FATalent.com",
+      "companyName": "XXXXX人力资源服务有限公司上海分公司",
+      "companyEnName": "XX XXXXX Human Resources Service Co., Ltd. Shanghai Branch",
+      "address": "上海市黄浦区XXXXXXXXXXX大厦（邮编：200001）",
+      "enAddress": "XXXXXXXXX XXXXX XXXXX, Shanghai 200001, PRC",
+      "contactPhone": "+86-21-0000 0000",
+      "website": "www.xxxxxxx.com",
       "logo": "https://fat-dev-static.oss-cn-shanghai.aliyuncs.com/%E6%96%B0logo.png",
       "bankInfo": [
         {
-          "openingAccountName": "北京仕邦达人力资源服务有限公司上海分公司",
-          "openingAccountEnName": "FA Talent Human Resources Service Co., Ltd. Shanghai Branch",
-          "bankName": "招商银行股份有限公司上海南西支行",
+          "openingAccountName": "XXXXX人力资源服务有限公司上海分公司",
+          "openingAccountEnName": "XX XXXXX Human Resources Service Co., Ltd. Shanghai Branch",
+          "bankName": "招商银行股份有限公司XXXX支行",
           "bankEnName": "China Merchants Bank Shanghai Nan Xi Sub-Branch",
-          "swiftCode": "CMBCCNBS051",
-          "bankNo": "121923503510701"
+          "swiftCode": "CMBCCNBSXXX",
+          "bankNo": "121923XXXXXX701"
         }
       ]
     },
@@ -164,7 +164,7 @@
         "birth": null,
         "phoneOfPerson": {
           "regionCode": "CN",
-          "number": "13376760099"
+          "number": "13300000000"
         },
         "phoneOfWork": {
           "regionCode": "CN",
@@ -545,17 +545,17 @@
     "email": "fan.beibei@fatalent.com",
     "mobile": null,
     "team": null,
-    "clientName": "华威股份有限公司",
+    "clientName": "XXXXX有限公司",
     "clientEnName": "rrrrrrffffr",
     "clientNum": "66666666",
     "address": ["1211", "嗡嗡嗡", "北京市四核雅鹿"]
   },
   "makeOutFee": null,
   "userInfo": {
-    "email": "fuling@165.com",
-    "phone": "13988882221",
-    "name": "福玲",
-    "englishName": "福玲",
+    "email": "a@a.com",
+    "phone": "13988888888",
+    "name": "XXX",
+    "englishName": "XXX",
     "gender": "M",
     "createdAt": "2022-11-18T08:22:56.000+00:00",
     "updatedAt": "2023-02-28T02:22:43.000+00:00"
