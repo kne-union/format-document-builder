@@ -41,7 +41,7 @@ const FieldsRender = () => {
       {Object.keys(data)
         .filter(name => deleteFields.indexOf(name) === -1)
         .map(name => {
-          const { isArray, type, typeProps, width, height, className, canDelete, canEdit = true, ...props } = data[name];
+          const { isArray, type, typeProps, width, height, className, canDelete, deleteButton, canEdit = true, editButton, ...props } = data[name];
           const Component = currentFields[type];
 
           if (!Component) {
@@ -71,6 +71,28 @@ const FieldsRender = () => {
                 height: node.clientHeight
               };
             })();
+            const handlerEdit = e => {
+              e.stopPropagation();
+              const { left } = e?.target?.getBoundingClientRect();
+              const { left: nodeLeft } = node.element.getBoundingClientRect();
+              const event = new PointerEvent('click', {
+                bubbles: true,
+                cancelable: true,
+                clientX: e.clientX - (left - nodeLeft),
+                clientY: e.clientY
+              });
+              ref.current.dispatchEvent(event);
+            };
+
+            const handlerDelete = e => {
+              e.stopPropagation();
+              openApi.setField({ name, value: null });
+              setDeleteFields(deletedField => {
+                const newDeletedField = deletedField.slice(0);
+                newDeletedField.push(name);
+                return newDeletedField;
+              });
+            };
 
             return (
               <div key={name + '_field_' + index}>
@@ -123,39 +145,22 @@ const FieldsRender = () => {
                       '--top': node.y + 'px'
                     }}
                   >
-                    {canEdit && (
-                      <Button
-                        type="text"
-                        icon={<EditOutlined />}
-                        onClick={e => {
-                          e.stopPropagation();
-                          const { left } = e?.target?.getBoundingClientRect();
-                          const { left: nodeLeft } = node.element.getBoundingClientRect();
-                          const event = new PointerEvent('click', {
-                            bubbles: true,
-                            cancelable: true,
-                            clientX: e.clientX - (left - nodeLeft),
-                            clientY: e.clientY
-                          });
-                          ref.current.dispatchEvent(event);
-                        }}
-                      />
-                    )}
-                    {canDelete && (
-                      <Button
-                        type="text"
-                        icon={<DeleteOutlined />}
-                        onClick={e => {
-                          e.stopPropagation();
-                          openApi.setField({ name, value: null });
-                          setDeleteFields(deletedField => {
-                            const newDeletedField = deletedField.slice(0);
-                            newDeletedField.push(name);
-                            return newDeletedField;
-                          });
-                        }}
-                      />
-                    )}
+                    {canEdit &&
+                      (typeof editButton === 'function' ? (
+                        editButton({
+                          onClick: handlerEdit
+                        })
+                      ) : (
+                        <Button type="text" icon={<EditOutlined />} onClick={handlerEdit} />
+                      ))}
+                    {canDelete &&
+                      (typeof deleteButton === 'function' ? (
+                        deleteButton({
+                          onClick: handlerEdit
+                        })
+                      ) : (
+                        <Button type="text" icon={<DeleteOutlined />} onClick={handlerDelete} />
+                      ))}
                   </Space>
                 )}
               </div>
