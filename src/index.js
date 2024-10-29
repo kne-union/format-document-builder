@@ -14,7 +14,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
     },
     p
   );
-  const { data, template, options, isPreview, width } = props;
+  const { data, template, options, isPreview, width, fields } = props;
   const [renderHtml, setRenderHtml] = useState('');
   const [deleteFields, setDeleteFields] = useState([]);
 
@@ -72,6 +72,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
         initFormData,
         data,
         options,
+        fields,
         deleteFields,
         setDeleteFields,
         getRootElement,
