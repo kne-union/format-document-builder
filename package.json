@@ -1,6 +1,6 @@
 {
   "name": "@kne/format-document-builder",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "能以所见即所得的方式进行数据填写，并通过打印模板或者邮件模板生成一个可打印文件或邮件",
   "syntax": {
     "esmodules": true
