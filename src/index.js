@@ -75,7 +75,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
 
     if (typeof formRender === 'function') {
       return formRender({
-        formRef,
+        ref: formRef,
         data: initFormData,
         children: inner
       });
