@@ -33,6 +33,10 @@
           "packageName": "@kne/current-lib_format-document-builder"
         },
         {
+          "name": "antd",
+          "packageName": "antd"
+        },
+        {
           "packageName": "@kne/current-lib_format-document-builder/dist/index.css"
         },
         {

@@ -62,12 +62,13 @@ render(<BaseExample/>);
 
 - 这里填写示例标题
 - 这里填写示例说明
-- _FormatDocumentBuilder(@kne/current-lib_format-document-builder),(@kne/current-lib_format-document-builder/dist/index.css),_paymentData(@mock/payment.json),_contactData(@mock/contact.json),_dayjs(dayjs)
+- _FormatDocumentBuilder(@kne/current-lib_format-document-builder),antd(antd),(@kne/current-lib_format-document-builder/dist/index.css),_paymentData(@mock/payment.json),_contactData(@mock/contact.json),_dayjs(dayjs)
 
 ```jsx
 const {default: FormatDocumentBuilder} = _FormatDocumentBuilder;
 const {useRef, useMemo} = React;
 const {default: firstPaymentNoticeData} = _paymentData;
+const {Button} = antd;
 const dayjs = _dayjs;
 const parseTemplate = ({
                            // paymentNoticePro,
@@ -286,7 +287,9 @@ const BaseExample = () => {
                             },
                         }), width: "200px", render: (value) => {
                             return value ? dayjs(value).format("YYYY-MM-DD") : "请选择日期";
-                        },
+                        }, editButton: (props) => {
+                            return <Button {...props} type="link" size="small">编辑</Button>;
+                        }
                     }, bankInfoOperation: {
                         className: "selected-bank-info-operation",
                         default: (paymentNoticePro.bankInfo || []).length ? paymentNoticePro.bankInfo[0].bankNo : "",
