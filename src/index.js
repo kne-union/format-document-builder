@@ -17,6 +17,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
   const { data, template, options, isPreview, width, fields, formRender } = props;
   const [renderHtml, setRenderHtml] = useState('');
   const [deleteFields, setDeleteFields] = useState([]);
+  const [renderIsMount, setRenderIsMount] = useState(false);
 
   const rootRef = useRef(null);
   const renderRef = useRef(null);
@@ -69,7 +70,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
         <div className={style['render']} ref={renderRef}>
           <TemplateRender />
         </div>
-        <FieldsRender />
+        {renderIsMount && <FieldsRender />}
       </>
     );
 
@@ -95,6 +96,8 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
         setRenderHtml,
         rootElementId,
         templateContent: template,
+        renderIsMount,
+        setRenderIsMount,
         initFormData,
         data,
         options,
