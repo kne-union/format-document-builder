@@ -7,7 +7,7 @@ import useRefCallback from '@kne/use-ref-callback';
 import { isEmpty } from '@kne/is-empty';
 
 const TemplateRender = () => {
-  const { setRenderHtml, templateContent, initFormData, data, options, deleteFields } = useContext();
+  const { setRenderHtml, templateContent, initFormData, data, options, deleteFields, setRenderIsMount } = useContext();
   const formContext = useFormContext();
   const templateData = Object.assign({}, initFormData, formContext?.formData);
   const ref = useRef(null);
@@ -35,6 +35,10 @@ const TemplateRender = () => {
   });
 
   const handlerChange = useRefCallback(setRenderHtml);
+
+  useEffect(() => {
+    setRenderIsMount(true);
+  }, []);
 
   useEffect(() => {
     const callback = () => {
