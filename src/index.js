@@ -14,7 +14,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
     },
     p
   );
-  const { data, template, options, isPreview, width, fields } = props;
+  const { data, template, options, isPreview, width, fields, formRender } = props;
   const [renderHtml, setRenderHtml] = useState('');
   const [deleteFields, setDeleteFields] = useState([]);
 
@@ -62,6 +62,32 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
 
   const currentId = useId();
   const rootElementId = currentId.replace(/:/g, '_');
+
+  const renderCanvasInner = () => {
+    const inner = (
+      <>
+        <div className={style['render']} ref={renderRef}>
+          <TemplateRender />
+        </div>
+        <FieldsRender />
+      </>
+    );
+
+    if (typeof formRender === 'function') {
+      return formRender({
+        formRef,
+        data: initFormData,
+        children: inner
+      });
+    }
+
+    return (
+      <Form ref={formRef} data={initFormData}>
+        {inner}
+      </Form>
+    );
+  };
+
   return (
     <Provider
       value={{
@@ -83,12 +109,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
         <TemplateRender />
       ) : (
         <div id={rootElementId} className={style['canvas']} ref={rootRef} style={{ width }}>
-          <Form ref={formRef} data={initFormData}>
-            <div className={style['render']} ref={renderRef}>
-              <TemplateRender />
-            </div>
-            <FieldsRender />
-          </Form>
+          {renderCanvasInner()}
         </div>
       )}
     </Provider>
