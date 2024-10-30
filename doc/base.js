@@ -12,7 +12,7 @@ const BaseExample = () => {
             }
         }} template={`
             <div>
-            <%if(!isDeletedField('name')){%>
+            <%if(!options?.isDeletedField('name')){%>
               <p><span style='margin-left: 8px;color: #666666;display: inline-block;max-width: 50%;vertical-align: top;' class='selected-client-name'><%=data.name%></span></div></p>
             <%}%>
              <p>哈哈哈哈</p>

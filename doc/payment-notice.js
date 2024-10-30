@@ -69,7 +69,7 @@ const parseTemplate = ({
                 付款通知书 / Payment Notice</div>
                 <div style='display: flex;margin-bottom: 35px;font-size: 14px;font-weight: 400;color: #222222;line-height: 32px;word-break: break-all;'>
                   <div style='width: 50%'>
-                    <%if(!isDeletedField('clientName')){%>
+                    <%if(!options?.isDeletedField('clientName')){%>
                     <div>致 / To:<span style='margin-left: 8px;color: #666666;display: inline-block;max-width: 50%;vertical-align: top;' class='selected-client-name'><%=data.clientName%></span></div>
                     <%}%>
                     <div>客户号 / Client #:<span style='margin-left: 8px;color: #666666;display: inline-block;max-width: 50%;vertical-align: top;' class='selected-client-num'><%=data.clientNum%></div>

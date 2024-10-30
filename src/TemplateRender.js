@@ -12,7 +12,7 @@ const TemplateRender = () => {
   const templateData = Object.assign({}, initFormData, formContext?.formData);
   const ref = useRef(null);
   const compiled = useMemo(() => {
-    return template(templateContent);
+    return typeof templateContent === 'function' ? templateContent : template(templateContent);
   }, [templateContent]);
 
   const renderHtml = compiled({
@@ -30,8 +30,7 @@ const TemplateRender = () => {
       },
       {}
     ),
-    isDeletedField: fieldName => deleteFields.indexOf(fieldName) > -1 || templateData[fieldName] === null,
-    options
+    options: Object.assign({}, options, { isDeletedField: fieldName => deleteFields.indexOf(fieldName) > -1 || templateData[fieldName] === null })
   });
 
   const handlerChange = useRefCallback(setRenderHtml);
