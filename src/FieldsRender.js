@@ -119,7 +119,7 @@ const FieldsRender = () => {
                     e.stopPropagation();
                   }}
                 >
-                  {isActive && <style children={`#${rootElementId} .${className}${isArray ? `[data-index="${index}"]` : ''}{visibility: hidden;}`} />}
+                  {isActive && <style children={`#${rootElementId} ${style['render']} .${className}${isArray ? `[data-index="${index}"]` : ''}{visibility: hidden;}`} />}
                   <Component
                     {...props}
                     {...(typeof typeProps === 'function'
