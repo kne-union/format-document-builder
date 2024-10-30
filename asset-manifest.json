@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/format-document-builder/static/js/main.a637d6b3.js",
-    "format_document_builder_0_1_9.js": "/format-document-builder/remoteEntry.js",
+    "main.js": "/format-document-builder/static/js/main.9af7b2ae.js",
+    "format_document_builder_0_1_10.js": "/format-document-builder/remoteEntry.js",
     "static/css/764.da4e955e.chunk.css": "/format-document-builder/static/css/764.da4e955e.chunk.css",
     "static/js/764.c1b57dcc.chunk.js": "/format-document-builder/static/js/764.c1b57dcc.chunk.js",
     "static/js/638.da76d868.chunk.js": "/format-document-builder/static/js/638.da76d868.chunk.js",
@@ -14,13 +14,13 @@
     "static/js/288.36898698.chunk.js": "/format-document-builder/static/js/288.36898698.chunk.js",
     "static/js/233.85699f96.chunk.js": "/format-document-builder/static/js/233.85699f96.chunk.js",
     "static/css/784.74eaced4.chunk.css": "/format-document-builder/static/css/784.74eaced4.chunk.css",
-    "static/js/784.32525d6e.chunk.js": "/format-document-builder/static/js/784.32525d6e.chunk.js",
+    "static/js/784.4da4bc51.chunk.js": "/format-document-builder/static/js/784.4da4bc51.chunk.js",
     "static/js/201.014369e5.chunk.js": "/format-document-builder/static/js/201.014369e5.chunk.js",
     "static/js/344.232f1aee.chunk.js": "/format-document-builder/static/js/344.232f1aee.chunk.js",
     "static/js/705.fcb59aa8.chunk.js": "/format-document-builder/static/js/705.fcb59aa8.chunk.js",
     "static/js/848.2aa96c16.chunk.js": "/format-document-builder/static/js/848.2aa96c16.chunk.js",
     "static/js/245.dc22fa57.chunk.js": "/format-document-builder/static/js/245.dc22fa57.chunk.js",
-    "static/js/830.de9afa1a.chunk.js": "/format-document-builder/static/js/830.de9afa1a.chunk.js",
+    "static/js/830.01123e3c.chunk.js": "/format-document-builder/static/js/830.01123e3c.chunk.js",
     "static/js/266.8a886d3e.chunk.js": "/format-document-builder/static/js/266.8a886d3e.chunk.js",
     "static/js/810.4afbe56e.chunk.js": "/format-document-builder/static/js/810.4afbe56e.chunk.js",
     "static/js/307.a41fa692.chunk.js": "/format-document-builder/static/js/307.a41fa692.chunk.js",
@@ -30,7 +30,7 @@
     "static/js/32.de19c4d7.chunk.js": "/format-document-builder/static/js/32.de19c4d7.chunk.js",
     "static/js/194.1279114a.chunk.js": "/format-document-builder/static/js/194.1279114a.chunk.js",
     "index.html": "/format-document-builder/index.html",
-    "main.a637d6b3.js.map": "/format-document-builder/static/js/main.a637d6b3.js.map",
+    "main.9af7b2ae.js.map": "/format-document-builder/static/js/main.9af7b2ae.js.map",
     "remoteEntry.js.map": "/format-document-builder/remoteEntry.js.map",
     "764.da4e955e.chunk.css.map": "/format-document-builder/static/css/764.da4e955e.chunk.css.map",
     "764.c1b57dcc.chunk.js.map": "/format-document-builder/static/js/764.c1b57dcc.chunk.js.map",
@@ -44,13 +44,13 @@
     "288.36898698.chunk.js.map": "/format-document-builder/static/js/288.36898698.chunk.js.map",
     "233.85699f96.chunk.js.map": "/format-document-builder/static/js/233.85699f96.chunk.js.map",
     "784.74eaced4.chunk.css.map": "/format-document-builder/static/css/784.74eaced4.chunk.css.map",
-    "784.32525d6e.chunk.js.map": "/format-document-builder/static/js/784.32525d6e.chunk.js.map",
+    "784.4da4bc51.chunk.js.map": "/format-document-builder/static/js/784.4da4bc51.chunk.js.map",
     "201.014369e5.chunk.js.map": "/format-document-builder/static/js/201.014369e5.chunk.js.map",
     "344.232f1aee.chunk.js.map": "/format-document-builder/static/js/344.232f1aee.chunk.js.map",
     "705.fcb59aa8.chunk.js.map": "/format-document-builder/static/js/705.fcb59aa8.chunk.js.map",
     "848.2aa96c16.chunk.js.map": "/format-document-builder/static/js/848.2aa96c16.chunk.js.map",
     "245.dc22fa57.chunk.js.map": "/format-document-builder/static/js/245.dc22fa57.chunk.js.map",
-    "830.de9afa1a.chunk.js.map": "/format-document-builder/static/js/830.de9afa1a.chunk.js.map",
+    "830.01123e3c.chunk.js.map": "/format-document-builder/static/js/830.01123e3c.chunk.js.map",
     "266.8a886d3e.chunk.js.map": "/format-document-builder/static/js/266.8a886d3e.chunk.js.map",
     "810.4afbe56e.chunk.js.map": "/format-document-builder/static/js/810.4afbe56e.chunk.js.map",
     "307.a41fa692.chunk.js.map": "/format-document-builder/static/js/307.a41fa692.chunk.js.map",
@@ -61,6 +61,6 @@
     "194.1279114a.chunk.js.map": "/format-document-builder/static/js/194.1279114a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a637d6b3.js"
+    "static/js/main.9af7b2ae.js"
   ]
 }
