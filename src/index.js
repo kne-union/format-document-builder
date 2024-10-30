@@ -5,6 +5,7 @@ import TemplateRender from './TemplateRender';
 import FieldsRender from './FieldsRender';
 import Form from '@kne/react-form-antd';
 import style from './style.module.scss';
+import classnames from 'classnames';
 
 const FormatDocumentBuilder = forwardRef((p, ref) => {
   const props = Object.assign(
@@ -14,7 +15,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
     },
     p
   );
-  const { data, template, options, isPreview, width, fields, formRender } = props;
+  const { data, template, options, isPreview, width, fields, formRender, className } = props;
   const [renderHtml, setRenderHtml] = useState('');
   const [deleteFields, setDeleteFields] = useState([]);
   const [renderIsMount, setRenderIsMount] = useState(false);
@@ -111,7 +112,7 @@ const FormatDocumentBuilder = forwardRef((p, ref) => {
       {isPreview ? (
         <TemplateRender />
       ) : (
-        <div id={rootElementId} className={style['canvas']} ref={rootRef} style={{ width }}>
+        <div id={rootElementId} className={classnames(style['canvas'], className)} ref={rootRef} style={{ width }}>
           {renderCanvasInner()}
         </div>
       )}
